@@ -59,12 +59,12 @@ nav li{
 
 .Banner-Image {
   width: 60%;
-  display: inline-flex;
+  display: flex;
   margin: 24px 32px;
 }
 
 .Learn-Something {
-  display: flex;
+  display: inline-block;
   padding-right: 24px;
   padding-left: 24px;
   text-align: left;
@@ -74,10 +74,76 @@ nav li{
   font-size: 2rem;
   max-width: 40%;
   line-height: 3rem;
+  margin-top: 250px;
 }
 
 .Start-here{
-  display: inline-flex;
+  display: block;
   justify-content: center;
-  color: white;
+  color: maroon;
+  font-size: 1.5rem;
+  font-family: 'EB Garamond', serif;
+  font-weight: bold;
+}
+
+button {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  overflow: hidden;
+  margin: 100px;
+  width: 300px;
+  height: 70px;
+  background-color: gold;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+/*Orientation*/
+
+.Container{
+  display: flex;
+  width: 100%;
+  background-color: rgba(23.9, 3.1, 11, 10.25);
+}
+
+.Keep-Practicing {
+  font-size: 3rem;
+  font-weight: bold;
+  color: gold;
+  background-color: rgba(23.9, 3.1, 11, 10.25);
+  margin-left: 24px;
+  margin-bottom: 32px;
+  text-align: left;
+  width: 60%;
+  margin-top: 32px;
+}
+
+#Quote {
+  font-size: 2rem;
+  color: gold;
+  line-height: 3rem;
+  width: 60%;
+}
+
+#Emanuel{
+  font-size: 1.5rem;
+  color: gold;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 24px;
+  text-align: left;
+  width:60%;
+}
+
+
+.Reading-Image img,
+#Quote{
+  padding-top: 64px;
+  padding-bottom: 32px;
+  margin-left: 32px;
 }
