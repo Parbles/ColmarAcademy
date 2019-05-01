@@ -108,7 +108,10 @@ button {
 .Container{
   display: flex;
   width: 100%;
+  margin: auto;
   background-color: rgba(23.9, 3.1, 11, 10.25);
+  border: 1px solid black;
+
 }
 
 .Keep-Practicing {
@@ -121,13 +124,14 @@ button {
   text-align: left;
   width: 60%;
   margin-top: 32px;
+  border: 1px solid black;
 }
 
 #Quote {
   font-size: 2rem;
   color: gold;
   line-height: 3rem;
-  width: 60%;
+  width: 41%;
 }
 
 #Emanuel{
@@ -146,4 +150,71 @@ button {
   padding-top: 64px;
   padding-bottom: 32px;
   margin-left: 32px;
+  border: 1px solid black
+
+}
+
+
+
+.Sidebar{
+  display: flex;
+  color: gold;
+  font-size: 2rem;
+  flex-direction: column;
+  text-align: left;
+  line-height: 3rem;
+  margin: auto;
+  padding-top: 32px;
+  width: 65%;
+  justify-content: center;
+border: 1px solid black;
+}
+
+#Side{
+  margin-left: -41%;
+  margin-top: .6%;
+}
+
+.Sidebar img {
+  height: auto;
+  max-width: 35%;
+  padding: 16px;
+  margin-top: : auto;
+  overflow: hidden;
+}
+
+.Side-Info, .Side-Info img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 24px;
+  border: 1px solid black;
+}
+
+.Text{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: left;
+  justify-content: center;
+  width: 60%;
+}
+
+.Text h3 {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.Text p{
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+}
+
+.Text a{
+  display: flex;
+  justify-content: space-between;
+  color: gold;
+  text-decoration: underline;
 }
