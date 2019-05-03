@@ -337,6 +337,7 @@ video {
   flex-direction: column;
   justify-content: flex-start;
   width: 40%;
+  padding-bottom: 32px;
 }
 
 .Fisma-Sidebar{
@@ -350,4 +351,30 @@ video {
   width: 35%;
   height: auto;
   margin: 0.5rem;
+}
+
+/*Footer*/
+
+.Footer{
+  margin: 3rem 1.5rem;
+  width: 100%;
+  padding: 24px 16px;
+}
+
+.Footer .Copyright{
+  color: gold;
+}
+
+.Terms ul li a{
+  display: flex;
+  margin-right: 24px;
+  color: gold;
+}
+
+.Footer,
+.Copyright,
+.Terms ul li a{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
