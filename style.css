@@ -64,7 +64,7 @@ nav li{
 }
 
 .Learn-Something {
-  display: inline-block;
+  display: inline-flex;
   padding-right: 24px;
   padding-left: 24px;
   text-align: left;
@@ -246,16 +246,18 @@ border: 1px solid black;
   align-items: center;
   flex-wrap: wrap;
   width: auto;
+  justify-content: center;
   border: 1px solid black;
 
 }
+
 
 .class{
   display: inline-block;
   vertical-align: baseline;
   padding-left: 16px;
   padding-right: 16px;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .class h4{
@@ -295,4 +297,57 @@ border: 1px solid black;
 .course {
 margin-top: 1rem;
 margin-bottom: 1rem;
+}
+
+/*Thesis Section*/
+
+.Thesis{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 32px;
+  position: relative;
+  top: 4.2rem;
+  background-color: rgba(23.9, 3.1, 11, 10.25);
+  color: gold;
+}
+
+.flex-content{
+  display: flex;
+  justify-content: space-between;
+  width: 97%;
+  margin: 2rem 1.5rem 0 1.5rem;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+  width: 60%;
+}
+
+video {
+  width: 60%;
+  height: auto;
+}
+
+.Words {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 40%;
+}
+
+.Fisma-Sidebar{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+
+.Fisma-Sidebar img{
+  width: 35%;
+  height: auto;
+  margin: 0.5rem;
 }
