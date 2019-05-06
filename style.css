@@ -378,3 +378,42 @@ video {
   justify-content: space-between;
   flex-direction: row;
 }
+
+/*Media*/
+
+@media only screen and (max-width: 1224px) and (min-width: 0) {
+
+  .Header nav .mobile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .Header,
+  .legend li a,
+  .Logo,
+  .Learn-Something,
+  .Keep-Practicing,
+  .Footer {
+    display: none;
+  }
+
+  .Container-Banner, .Container, .Learning-Container, .Learning-Info, .Thesis,
+  .class, .flex-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .class {
+    width: 65%;
+  }
+
+  .Learning-Container {
+    text-align: center;
+  }
+
+  .Container-Banner, .Container, .Sidebar, .flex-content{
+    align-items: center;
+  }
+}
